@@ -1,75 +1,56 @@
 import type { Portfolio } from "@/lib/types";
 
 const PORTFOLIO_DATA: Portfolio = {
-	name: "Your Name Here",
-	headline: "Aspiring Innovator | Full-Stack Developer | AI Enthusiast",
-	bio: "A results-driven computer science student at [Your University] with a passion for building disruptive, scalable, and user-centric applications. Eager to leverage modern technologies to solve real-world problems and drive impactful change. Currently seeking high-growth internship opportunities for Summer 202X.",
+	name: "Uzair Hammad",
+	headline: "Computer Science Student at UCLA",
+	bio: "",
 
 	// Your contact email
-	email: "hello@yourdomain.com",
+	email: "uhammad@ucla.edu",
 
 	// Add your links here
 	// Supported icons: 'GitHub', 'LinkedIn', 'Twitter', 'Blog'
 	links: [
-		{ name: "GitHub", url: "https" },
-		{ name: "LinkedIn", url: "https" },
-		{ name: "Twitter", url: "https" },
+		//{ name: "GitHub", url: "https" },
+		{ name: "LinkedIn", url: "https://linkedin.com/in/uzair-hammad" },
+		//{ name: "Twitter", url: "https" },
 		// { name: "Blog", url: "https://yourblog.com" },
 	],
 
 	// Add your skills here
 	skills: [
-		"JavaScript", "TypeScript", "React", "Next.js", "Node.js",
-		"Python", "Go", "Tailwind CSS", "Firebase", "AWS", "Docker", "Kubernetes"
+		"C++", "Python", "COMSOL Multiphysics"
 	],
 
 	// Add your projects here
 	projects: [
 		{
-			title: "Project 'Synergy'",
-			description: "A decentralized, AI-powered platform to streamline cross-functional team collaboration using a novel blockchain consensus algorithm. Built with a microservices architecture.",
-			stack: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Vercel"],
+			
+			title: "X Web Scraper",
+			description: "Building a scraper to parse tweets for research into preparedness and response to recent wildfires in California",
+			stack: ["Python"],
 			githubLink: "",
 			liveLink: "",
-		},
-		{
-			title: "VibeCheck",
-			description: "A mobile-first social app that uses sentiment analysis to curate positive news feeds. Leveraged serverless functions for infinite scalability and low-cost operation.",
-			stack: ["React Native", "Firebase", "Google Cloud Functions", "NLP.js"],
-			githubLink: "",
-			liveLink: "",
-		},
-		{
-			title: "AlgoVisualizer",
-			description: "A web-based tool for visualizing complex data structures and algorithms, built to help students (like me) understand core CS concepts in an interactive way.",
-			stack: ["TypeScript", "React", "D3.js"],
-			githubLink: "",
-			liveLink: "",
-		},
+		}
+		
 	],
 
 	// Add your experience here
 	experience: [
 		{
-			role: "Software Engineer Intern (Incoming)",
-			company: "Big Tech Co / FAANG",
-			date: "Summer 202X",
-			location: "Menlo Park, CA (Remote)",
-			description: "Selected for a highly competitive internship program. Will be joining the [Cloud/AI/Growth] team to work on high-impact, customer-facing features."
+			role: "Phillips Research Scholar",
+			company: "Air Force Research Laboratory",
+			date: "Summer 2025",
+			location: "Albuquerque, NM",
+			description: "Selected as one of 154 AFRL Scholars from a pool of over 1,800 applicants. Modeled nanoparticle growth on slurry flow battery surfaces using COMSOL Multiphysics to assess durability and performance vs. lithium-ion batteries. Awarded ”Viewers’ Choice - Best Poster” out of about 80 submissions."
+
 		},
 		{
-			role: "Club President / Co-Founder",
-			company: "[Your Vibe-Coding Club Name]",
-			date: "Aug 202X - Present",
-			location: "[Your University]",
-			description: "Grew the organization from 5 to 200+ members by fostering a culture of innovation and 'vibecoding.' Organized tech talks with industry leaders from Google, Meta, and hot startups."
-		},
-		{
-			role: "Teaching Assistant - Intro to CS",
-			company: "[Your University]",
-			date: "Jan 202X - May 202X",
-			location: "[Your University]",
-			description: "Mentored 50+ students, held office hours, and graded assignments for foundational computer science concepts. Received a 95% positive feedback rating from students."
+			role: "Developer",
+			company: "B. John Garrick Institute for the Risk Sciences",
+			date: "June 2025 - Present",
+			location: "University of California, Los Angeles",
+			description: "Developed features and resolved bugs for WiSE, a wildfire evacuation planning tool modeling dynamic fire spread. Contributed to UI logic and simulation parameter controls in collaboration with research and software teams."
 		}
 	],
 
@@ -77,15 +58,9 @@ const PORTFOLIO_DATA: Portfolio = {
 	education: [
 		{
 			degree: "B.S. in Computer Science",
-			institution: "[Your University]",
-			date: "Expected May 202X",
-			note: "Minor in [e.g., Business, Data Science]"
-		},
-		{
-			degree: "Best 'Vibe' Hack",
-			institution: "[Some Hackathon]",
-			date: "Fall 202X",
-			note: "Awarded for the project with the slickest UI and best pitch."
+			institution: "University of California, Los Angeles",
+			date: "Expected May 2028",
+			note: ""
 		}
 	]
 };
